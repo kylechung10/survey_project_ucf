@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey - Kyle Chung</title>
+        <!--Linking the CSS-->
+        <link rel="stylesheet" href="css/style.css">
+            <!--Linking JS-->
+        <script type="text/javascript" src="js/process_form.js"></script>
+    </head>
+
+    <body>
+
+    <div class="theSurvey">
+        <!--Personal information of the form-->
+        <h1 class="htop">Find Out What Car You Are!</h1>
+
+        <fieldset>
+                <legend>Personal Info</legend>
+        <form name="form1">
+                <div class="form0" id="form0">
+            <div id="box1">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname1" value="">
+                <span class="hinttag"/>
+            </div><br>
+            <div id="box2">
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname1" value="">
+                <span class="hinttag"/>
+            </div><br>
+            <div id="box3">
+                <label for="email">E-Mail Address</label><br>
+                <input type="text" id="email" name="email1" value="">
+                <span class="hinttag"/>
+            </div><br>
+            <div id="box4">
+                <label for="pnum">Phone Number</label><br>
+                <input type="text" id="pnum" name="pnum1" value="">
+                <span class="hinttag"/>
+            </div><br>
+            <div id="box5">
+                <label for="addy">Student Address</label><br>
+                <input type="text" id="addy" name="addy1" value="">
+                <span class="hinttag"/>
+            </div>
+            </div>
+            <br>
+            <input type="checkbox" id="thecheck">
+            <label for="thecheck">Anonymous</label>
+
+
+        </fieldset>
+            <!--Survey-->
+
+        
+            <fieldset>
+                <legend>Question 1</legend>
+                <div class="questions">
+                    <p>What movies do you like?</p>
+                    <input type="radio" id="a1" name="section1" value="action">
+                    <label for="a1">Action</label><br>
+                    <input type="radio" id="a2" name="section1" value="scifi">
+                    <label for="a2">Sci-fi</label>
+                </div>
+    
+            </fieldset>
+
+            <fieldset>
+                <legend>Question 2</legend>
+                <div class="questions">
+                    <p>What music do you prefer?</p>
+                    <input type="radio" id="b1" name="section2" value="classical">
+                    <label for="b1">Classical</label><br>
+                    <input type="radio" id="b2" name="section2" value="rock">
+                    <label for="b2">Rock</label>
+                </div><br>
+                <!--Form submit-->
+                <button type="button" id="submitbutton" class="button1" value="submitbutton">Submit</button>
+    
+            </fieldset>
+
+        </form>
+
+        <div id="results" class="results">
+            <h1 class="you">YOUR RESULTS</h1>
+        </div>
+
+        <div>
+            <p id="footer">Created by Kyle Chung</p>
+        </div>
+
+    </div>
+
+    </body>
+
+</html>
